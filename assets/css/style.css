@@ -23,6 +23,16 @@ a:hover {
   text-decoration: none;
 }
 
+#shopDescription,
+#nasaDescription,
+#codewarsDescription,
+#hrDescription,
+#dinerDescription {
+  font-weight: 300;
+  color: #fff;
+  background-color: black;
+}
+
 h1,
 h2,
 h3,
