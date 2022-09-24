@@ -23,15 +23,65 @@ a:hover {
   text-decoration: none;
 }
 
+/* I added this to control the mouse over text links style */
+#shopLinkSize,
+#nasaLinkSize,
+#cdwarsLinkSize,
+#hrboxLinkSize,
+#dinerLinkSize {
+  font-size: 1rem;
+  background-color: blue;
+  color: white;
+  padding: 5px 5px 10px 5px;
+  border-radius: 10px;
+}
+
+/* I changed the font size to rem for reponsiveness and color */
 #shopDescription,
 #nasaDescription,
 #codewarsDescription,
 #hrDescription,
 #dinerDescription {
-  font-weight: 300;
-  color: #fff;
-  background-color: black;
+  font-weight: 600;
+  /* added font-size */
+  font-size: .7rem;
+  color: white;
+  background-color: steelblue;
 }
+
+/* I'm setting the min and max width and height to eliminate the gray aside box that forms and overlap */
+.projectBox {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 500px;
+  max-height: 500px;  
+}
+
+/* These are my attempts to center my individual projects at phone size */
+/* @media (max-width: 767px) {
+  .projectBox 
+  #projectContainer {
+    margin-left: 150px;
+  }
+}  */
+
+@media (max-width: 516px) {
+#projectContainer {
+  position: absolute; 
+  left: 20%;
+  /* margin-left: 150px; */
+}
+  
+}
+
+
+/* #outerProjectContainer {
+  display: flex;
+} */
+
+/* #projectContainer {
+  margin-left: 10vw;
+} */
 
 h1,
 h2,
@@ -697,8 +747,11 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
-  color: #45505b;
+  /* I changed the project title h4 font size to be responsive */
+  font-size: .8rem;
+  background-color: steelblue;
+  color: white;
+  padding: 5px;
   font-weight: 600;
 }
 
