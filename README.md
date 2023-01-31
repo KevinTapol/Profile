@@ -2,7 +2,7 @@
       <h3 align="center">My Portfolio Website</h3>
       <br /> <!--Click Profile Image to open a new window to Profile website-->
       <a target="_blank" href="https://kevintapolcsanyi.netlify.app/">
-        <img src="./assets/img/portfolio.png" width="100%" alt="#"/>
+        <img src="./assets/img/ProfileWebsites.gif" width="100%" alt="#"/>
       </a>
       <br />
       <p align="center"> 
